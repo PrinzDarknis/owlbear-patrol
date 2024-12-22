@@ -1,0 +1,42 @@
+.patrol-view {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 10px 10px;
+}
+
+.patrol-name {
+  width: 80px;
+  overflow-wrap: break-word;
+}
+
+.patrol-reset {
+  cursor: pointer;
+
+  border: none;
+  background: #ffffff10;
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Slider */
+.range-wrapper {
+  display: grid;
+  grid: auto / auto;
+  flex-grow: 1;
+}
+
+.range-lables {
+  display: flex;
+}
+.range-lables p {
+  margin: 0;
+}
+
+.range-lable-filler {
+  flex-grow: 1;
+}
+.range-lable-filler:last-child {
+  flex-grow: 1;
+  display: none;
+}
